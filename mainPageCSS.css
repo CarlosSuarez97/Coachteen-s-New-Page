@@ -11,36 +11,37 @@
 }
 
 #bar{
-    width: 70%;
+    width: 80%;
     background-color: #FFFFFF;
     margin: auto;
 }
 
-p{
+.barItem{
     font-family: Bebas Neue;
-    font-size: large;
+    font-size: 1rem;
+    color: gray;
 }
 
-@media (max-width: 576px){
-    p{
-        font-size: medium;
+@media (min-width: 576px){
+    .barItem{
+        font-size: 1.25rem;
     } 
 }
 
-@media (max-width: 768px){
-    p{
-        font-size: medium;
+@media (min-width: 768px){
+    .barItem{
+        font-size: 1.5rem;
     } 
 }
 
-@media (max-width: 992px){
-    p{
-        font-size: small;
+@media (min-width: 992px){
+    .barItem{
+        font-size: 1.75;
     } 
 }
 
-@media (max-width: 1200px){
-    p{
-        font-size: small;
+@media (min-width: 1200px){
+    .barItem{
+        font-size: 2rem;
     } 
 }
