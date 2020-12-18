@@ -1,0 +1,11 @@
+#welcome{
+    background-image: url('./assets/1.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+#welcomeImg{
+    margin: auto;
+    width: 40%;
+    padding: 10px;
+}
