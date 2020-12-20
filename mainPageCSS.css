@@ -9,7 +9,8 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-}
+} 
+/*Centers elements in a div*/
 
 #welcomeImg{
     margin: auto;
@@ -19,6 +20,7 @@
     align-items: center;
     justify-content: center;
 }
+/*For Coachteen's logo at the beginning of the page*/
 
 #navBarItem{
     font-family: Bebas Neue;
@@ -26,45 +28,55 @@
     color: gray;
     display: flex;
 }
+/*For the items in the page's navgation bar*/
 
 #getStarted{
     background-color: #FFFFFF;
-    color: purple;
+    color: #5B1B8D;
     font-family: Bebas Neue;
     size: 4rem;
 }
+/*For the "Get Started" button at the beggining of the page*/
 
 .responsiveHeadlines{
     font-family: Bebas Neue;
     font-size: 3rem;
 }
+/*For the main titles*/
 
 .responsiveHeadlines2{
     font-family: Bebas Neue;
     font-size: 4rem;
 }
+/*For smaller main titles*/
+
+.responsiveSubtitles{
+    font-family: Helvetica;
+    font-size: 2rem;
+}
+/*For subtitles*/
 
 @media (max-width: 576px) {
     .responsiveHeadlines { font-size: 2.25rem; }
     .responsiveHeadlines2 { font-size: 3.25rem; }
-    #navBarItem { font-size: 1.25rem }
+    #navBarItem, .responsiveSubtitles { font-size: 1.25rem }
     #welcomeImg { width: 40% }
 }
 @media (max-width: 768px) {
     .responsiveHeadlines { font-size: 2.5rem; }
     .responsiveHeadlines2 { font-size: 3.5rem; }
-    #navBarItem { font-size: 1.5rem }
+    #navBarItem, .responsiveSubtitles { font-size: 1.5rem }
     #welcomeImg { width: 50% }
 }
 @media (max-width: 992px) {
     .responsiveHeadlines { font-size: 2.75rem; }
     .responsiveHeadlines2 { font-size: 3.75rem; }
-    #navBarItem { font-size: 1.75rem }
+    #navBarItem, .responsiveSubtitles { font-size: 1.75rem }
     #welcomeImg { width: 60% }
 }
 @media (max-width: 1200px) {
     .responsiveHeadlines { font-size: 3rem; }
     .responsiveHeadlines2 { font-size: 4rem; }
-    #navBarItem { font-size: 2rem }
+    #navBarItem, .responsiveSubtitles { font-size: 2rem }
     #welcomeImg { width: 70% }
 }
