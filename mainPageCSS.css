@@ -22,12 +22,49 @@
 
 #navBarItem{
     font-family: Bebas Neue;
-    font-size: 1.5rem;
+    font-size: 2rem;
     color: gray;
     display: flex;
 }
 
+#getStarted{
+    background-color: #FFFFFF;
+    color: purple;
+    font-family: Bebas Neue;
+    size: 4rem;
+}
+
 .responsiveHeadlines{
     font-family: Bebas Neue;
-    font-size: 2rem;
+    font-size: 3rem;
+}
+
+.responsiveHeadlines2{
+    font-family: Bebas Neue;
+    font-size: 4rem;
+}
+
+@media (max-width: 576px) {
+    .responsiveHeadlines { font-size: 2.25rem; }
+    .responsiveHeadlines2 { font-size: 3.25rem; }
+    #navBarItem { font-size: 1.25rem }
+    #welcomeImg { width: 40% }
+}
+@media (max-width: 768px) {
+    .responsiveHeadlines { font-size: 2.5rem; }
+    .responsiveHeadlines2 { font-size: 3.5rem; }
+    #navBarItem { font-size: 1.5rem }
+    #welcomeImg { width: 50% }
+}
+@media (max-width: 992px) {
+    .responsiveHeadlines { font-size: 2.75rem; }
+    .responsiveHeadlines2 { font-size: 3.75rem; }
+    #navBarItem { font-size: 1.75rem }
+    #welcomeImg { width: 60% }
+}
+@media (max-width: 1200px) {
+    .responsiveHeadlines { font-size: 3rem; }
+    .responsiveHeadlines2 { font-size: 4rem; }
+    #navBarItem { font-size: 2rem }
+    #welcomeImg { width: 70% }
 }
