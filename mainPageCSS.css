@@ -61,6 +61,10 @@
     font-family: Bebas Neue;
     font-size: 4rem;
 }
+.responsiveHeadlines3{
+    font-family: Helvetica;
+    font-size: 4rem;
+}
 /*For smaller main titles*/
 
 .responsiveSubtitles{
@@ -75,7 +79,7 @@
 
 @media (max-width: 576px) {
     .responsiveHeadlines { font-size: 2.25rem; }
-    .responsiveHeadlines2 { font-size: 3.25rem; }
+    .responsiveHeadlines2, .responsiveHeadlines3 { font-size: 3.25rem; }
     #navBarItem, .responsiveSubtitles { font-size: 1.25rem; }
     #welcomeImg { width: 40%; }
     .assets1{ width: 10%; }
@@ -83,7 +87,7 @@
 }
 @media (max-width: 768px) {
     .responsiveHeadlines { font-size: 2.5rem; }
-    .responsiveHeadlines2 { font-size: 3.5rem; }
+    .responsiveHeadlines2, .responsiveHeadlines3 { font-size: 3.5rem; }
     #navBarItem, .responsiveSubtitles { font-size: 1.5rem; }
     #welcomeImg { width: 50%; }
     .assets1{ width: 20%; }
@@ -91,7 +95,7 @@
 }
 @media (max-width: 992px) {
     .responsiveHeadlines { font-size: 2.75rem; }
-    .responsiveHeadlines2 { font-size: 3.75rem; }
+    .responsiveHeadlines2, .responsiveHeadlines3 { font-size: 3.75rem; }
     #navBarItem, .responsiveSubtitles { font-size: 1.75rem; }
     #welcomeImg { width: 60%; }
     .assets1{ width: 30%; }
@@ -99,7 +103,7 @@
 }
 @media (max-width: 1200px) {
     .responsiveHeadlines { font-size: 3rem; }
-    .responsiveHeadlines2 { font-size: 4rem; }
+    .responsiveHeadlines2, .responsiveHeadlines3 { font-size: 4rem; }
     #navBarItem, .responsiveSubtitles { font-size: 2rem; }
     #welcomeImg { width: 70%; }
     .assets1{ width: 40%; }
