@@ -15,6 +15,14 @@
     font-family: Open Sans;
     color: #000000;
     font-size: 1rem;
+    text-align: justify;
+}
+
+.biggerParagraphs{
+    font-family: Open Sans;
+    color: #000000;
+    font-size: 1.5rem;
+    text-align: justify;
 }
 
 .informativeTable{
@@ -85,24 +93,44 @@
     width: 50%;
 }
 
+.icons{
+    width: 70%;
+}
+
 /*Media Queries for Responsiveness*/
 @media (max-width: 576px){
-    #coachteen {
+    #coachteen{
         width: 20%;
     }
-}
-@media (max-width: 768px){
-    #coachteen {
-        width: 30%;
-    }
-}
-@media (max-width: 992px){
-    #coachteen {
+
+    .icons{
         width: 40%;
     }
 }
-@media (max-width: 1200px){
-    #coachteen {
+@media (max-width: 768px){
+    #coachteen{
+        width: 30%;
+    }
+
+    .icons{
         width: 50%;
+    }
+}
+@media (max-width: 992px){
+    #coachteen{
+        width: 40%;
+    }
+
+    .icons{
+        width: 60%;
+    }
+}
+@media (max-width: 1200px){
+    #coachteen{
+        width: 50%;
+    }
+
+    .icons{
+        width: 70%;
     }
 }
