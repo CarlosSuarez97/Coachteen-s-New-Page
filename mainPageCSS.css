@@ -57,7 +57,7 @@
     margin-bottom: 0 !important;
 }
 
-#navBarItem{
+#navBarItem, #logIn{
     font-family: Bebas Neue;
     font-size: 2rem;
     color: gray;
