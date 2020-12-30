@@ -11,6 +11,11 @@
     color: #FFFFFF;
 }
 
+.blogTitle{
+    font-family: Bebas Neue;
+    color: #0597D5;
+}
+
 .paragraphs{
     font-family: Open Sans;
     color: #000000;
@@ -71,7 +76,7 @@
     padding: 2rem;
 }
 
-#secondSection, #fourthSection, #fifthSection, #seventhSection, #ninthSection{
+#secondSection, #fourthSection, #fifthSection, #seventhSection, #ninthSection, .itemPadding{
     padding: 2rem;
 }
 
@@ -89,9 +94,9 @@
     padding: 2rem;
 }
 
-#coachteen{
+/* #coachteen{
     width: 50%;
-}
+} */
 
 .icons{
     width: 70%;
