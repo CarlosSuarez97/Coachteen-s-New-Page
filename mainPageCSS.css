@@ -97,7 +97,8 @@
     padding: 2rem;
 }
 
-#eighthSection{
+#eighthSection,
+#coachteensPurpose{
     background-image: url('./assets/3.jpg');
     background-size: cover;
     background-position: center;
@@ -197,3 +198,11 @@
       visibility: visible;
     }
   }
+
+
+/*Exclusively for the Abouts Us page*/
+
+.aboutUs1{
+    background-color: #48CAE4;
+    padding: 2rem;   
+}
