@@ -24,7 +24,9 @@
 
             <!--Coachteen's logo-->
             <div class="container-fluid">
-                <img src="assets/PAGINA88.png" id="coachteen" class="img-fluid">
+                <a href="./mainPage.html">
+                    <img src="assets/PAGINA88.png" id="coachteen" class="img-fluid">
+                </a>
             </div>
 
             <!--Navbar-->
@@ -49,7 +51,7 @@
                         </li>
                         </ul>
                         <a class="navbar-brand button" href="#" id="navBarItem" style="color: #0077b6;" data-toggle="modal" data-target="#exampleModal">Log In</a>
-                        <a class="navbar-brand button" href="#" id="navBarItem" style="color: #0077b6;">Sign Up</a>
+                        <a class="navbar-brand button" href="signUp.html" id="navBarItem" style="color: #0077b6;">Sign Up</a>
                     </div>
                 </nav>
             </div>
@@ -60,19 +62,28 @@
             <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
                 <div class="modal-dialog modal-dialog-centered" role="document">
                 <div class="modal-content">
-                    <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                    <div class="modal-header" style="background-color: #009EDC;">
+                    <h5 class="modal-title headlines display-4" id="exampleModalLabel">Log In</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
                     </div>
                     <div class="modal-body">
-                        <input type="text" class="form-control" placeholder="Username or E-Mail" aria-label="Username" aria-describedby="basic-addon1">
-                        <input type="password" class="form-control" placeholder="Password" aria-label="Password" aria-describedby="basic-addon1">
+                        <form>
+                            <div class="form-group">
+                                <label for="userMail" class="formStyle">E-Mail</label>
+                                <input type="email" class="form-control" id="userMail">
+                            </div>
+                            <div class="form-group">
+                                <label for="userMail" class="formStyle">Password</label>
+                                <input type="password" class="form-control" id="userMail">
+                            </div>
+                        </form>
                     </div>
+                    <!--#009EDC-->
                     <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-primary">Save changes</button>
+                    <button type="button" class="btn btn-danger headlines btn-lg" data-dismiss="modal">Close</button>
+                    <button type="submit" class="btn btn-primary headlines btn-lg">Log In</button>
                     </div>
                 </div>
                 </div>
@@ -112,6 +123,70 @@
 
             <div class="container-fluid">
                 <p class="display-3 headlines" style="color: #0077b6">Meet Our Crew</p>
+            </div>
+
+            <div class="container-fluid">
+
+                <div class="container-fluid row itemPadding">
+
+                    <div class="row">
+
+                        <div class="col-md-6">
+                            <div class="media">
+                                <img class="align-self-start mr-3 rounded-circle" src="" alt="Generic placeholder image">
+                                <div class="media-body testimonials">
+                                  <h3 class="mt-0 headlines" style="color: #0597D5">Ricardo Bravo</h3>
+                                  <h4 class="mt-0 headlines text-muted">CEO</h4>
+                                  <p>"With a special team of professionals we have developed an innovative and disruptive online educational platform that increases the capacities and develops the talents of young adolescents to accompany them in planning their decisions in the challenge of university life".</p>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="col-md-6">
+                            <div class="media">
+                                <img class="align-self-start mr-3 rounded-circle" src="" alt="Generic placeholder image">
+                                <div class="media-body testimonials">
+                                  <h3 class="mt-0 headlines" style="color: #0597D5">Kely Álvarez</h3>
+                                  <h4 class="mt-0 headlines text-muted">Content Specialist</h4>
+                                  <p>"Coachteen is your opportunity to overcome the limits of space and time so your formation doesn't have any limits".</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="container-fluid row itemPadding">
+
+                    <div class="row">
+
+                        <div class="col-md-6">
+                            <div class="media">
+                                <img class="align-self-start mr-3 rounded-circle" src="" alt="Generic placeholder image">
+                                <div class="media-body testimonials">
+                                  <h3 class="mt-0 headlines" style="color: #0597D5">David Suárez</h3>
+                                  <h4 class="mt-0 headlines text-muted">Web Developer/Quality Control</h4>
+                                  <p>"We've used some of the best technologies available on the market to develop this platform, and we've done everything ".</p>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="col-md-6">
+                            <div class="media">
+                                <img class="align-self-start mr-3 rounded-circle" src="" alt="Generic placeholder image">
+                                <div class="media-body testimonials">
+                                  <h3 class="mt-0 headlines" style="color: #0597D5">Naida Briceño</h3>
+                                  <h4 class="mt-0 headlines text-muted">Quality Content</h4>
+                                  <p>"Coachteen empowers teenagers with valuable leadership tools to face the challenges of the future as professional people".</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
             </div>
 
         </div>

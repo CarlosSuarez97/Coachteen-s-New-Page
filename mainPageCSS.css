@@ -11,6 +11,15 @@
     color: #FFFFFF;
 }
 
+.formStyle{
+    font-family: Bebas Neue;
+    color: #0077B6;
+    font-size: 1.5rem;
+    text-align: left;
+    align-items: flex-start;
+    display: flex;
+}
+
 .blogTitle{
     font-family: Bebas Neue;
     color: #0597D5;
@@ -98,7 +107,8 @@
 }
 
 #eighthSection,
-#coachteensPurpose{
+#coachteensPurpose,
+.signUpPage{
     background-image: url('./assets/3.jpg');
     background-size: cover;
     background-position: center;
