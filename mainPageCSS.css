@@ -28,14 +28,14 @@
 .paragraphs{
     font-family: Open Sans;
     color: #000000;
-    font-size: 1rem;
+    font-size: 1.2rem;
     text-align: justify;
 }
 
 .biggerParagraphs{
     font-family: Open Sans;
     color: #000000;
-    font-size: 1.25rem;
+    font-size: 1.3rem;
     text-align: justify;
 }
 
@@ -43,32 +43,32 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     grid-auto-rows: max-content;
-    grid-row-gap: 5rem;
+    grid-row-gap: 2rem;
     justify-items: center;
     width: 100%;
+
+    /* display: flex;
+    align-items: center;
+    width: 100%; */
 }
 
 .informativeTable.verticalCenter{
     grid-auto-rows: auto;
 }
 
-/* .informativeItem:nth-child(1){
-    background-color: #0077B6;
-}
-.informativeItem:nth-child(2){
-    background-color: #8864C6;
-}
-.informativeItem:nth-child(3){
-    background-color: #FF7AA2;
-} */
-
 .informativeItem{
     width: 100%;
-    max-width: 350px;
+    max-width: 375px;
     display: flex;
     align-items: center;
     flex-direction: column;
     margin-bottom: 0 !important;
+
+    /* width: 350px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 0 !important; */
 }
 
 #navBarItem, #logIn{
@@ -208,6 +208,7 @@
       visibility: visible;
     }
   }
+/*End of Carrousel's CSS*/
 
 
 /*Exclusively for the Abouts Us page*/
@@ -215,4 +216,24 @@
 .aboutUs1{
     background-color: #48CAE4;
     padding: 2rem;   
+}
+
+
+/*Horizontal scrolling*/
+.scrolling-wrapper{
+	overflow-x: auto;
+}
+
+.card-block{
+	height: 100%;
+	background-color: #fff;
+	border: none;
+	background-position: center;
+	background-size: cover;
+	transition: all 0.2s ease-in-out !important;
+	border-radius: 24px;
+	&:hover{
+		transform: translateY(-5px);
+		box-shadow: none;
+	}
 }
